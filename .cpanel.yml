@@ -1,0 +1,34 @@
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R application $DEPLOYPATH
+    - /bin/cp -R bootstrap $DEPLOYPATH
+    - /bin/cp -R build $DEPLOYPATH
+    - /bin/cp -R config $DEPLOYPATH
+    - /bin/cp -R dist $DEPLOYPATH
+    - /bin/cp -R dokumentasi $DEPLOYPATH
+    - /bin/cp -R file $DEPLOYPATH
+    - /bin/cp -R foto_pegawai $DEPLOYPATH
+    - /bin/cp -R foto_siswa $DEPLOYPATH
+    - /bin/cp -R foto-pegawai $DEPLOYPATH
+    - /bin/cp -R pages $DEPLOYPATH
+    - /bin/cp -R print_raport $DEPLOYPATH
+    - /bin/cp alat.php $DEPLOYPATH
+    - /bin/cp download.php $DEPLOYPATH
+    - /bin/cp footer.php $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp login.php $DEPLOYPATH
+    - /bin/cp logout.php $DEPLOYPATH
+    - /bin/cp main-header.php $DEPLOYPATH
+    - /bin/cp menu-admin.php $DEPLOYPATH
+    - /bin/cp menu-guru.php $DEPLOYPATH
+    - /bin/cp menu_kepsek.php $DEPLOYPATH
+    - /bin/cp menu-siswa.php $DEPLOYPATH
+    - /bin/cp print-raport-uts.php $DEPLOYPATH
+    - /bin/cp print-siswa.php $DEPLOYPATH
+    - /bin/cp test-ip.php $DEPLOYPATH
+    
